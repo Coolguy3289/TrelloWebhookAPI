@@ -2,6 +2,7 @@
   "name": "API",
   "description": "Trello Bot API",
   "version": "0.0.1",
+  "main": "main.js",
   "dependencies": {
     "bluebird": "^3.4.0",
     "body-parser": "^1.15.2",
@@ -18,5 +19,8 @@
     "rethinkdb": "^2.3.3",
     "superagent": "^3.8.1",
     "uuid": "^2.0.2"
-  }
+  },
+  "scripts": {
+    "start": "node main.js"
+  }  
 }
